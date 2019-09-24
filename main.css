@@ -1,0 +1,40 @@
+#logo{
+    height: 200px;
+    width: 200px;
+    background:
+    radial-gradient(circle at 72.3% 62.5%, white 4.2%,  transparent 4.7%),
+    radial-gradient(circle at 71.25% 74%, white 4.1%,  transparent 4.6%),
+    radial-gradient(circle at 72% 68%, saddlebrown 7%,  transparent 8%),
+    radial-gradient(circle at 27.65% 18%, white 3.5%,  transparent 4%),
+    radial-gradient(circle at 36% 14.5%, white 3.6%,  transparent 4.1%),
+    radial-gradient(circle at 44.5% 11.25%, white 3.7%,  transparent 4.2%),
+    linear-gradient(160deg, saddlebrown 20%,  transparent 20%),
+    linear-gradient(to top, saddlebrown 5%,  transparent 5%),
+    radial-gradient(circle at 50% 66%, white 12%, transparent 12.5%),
+    radial-gradient(circle at 50% 66%, saddlebrown 22%, transparent 22.5%),
+    radial-gradient(circle at 50% 66%, white 32%, transparent 32.5%),
+    radial-gradient(circle at 30% 100%, saddlebrown 30%, transparent 30.5%),
+    linear-gradient(to right, transparent 23.5%,white 23.5%,white 31.5%,transparent 31.5%),
+    linear-gradient(to right, transparent 32%,white 32%,white 40%,transparent 40%),
+    linear-gradient(to right, transparent 40.5%,white 40.5%,white 48.5%,transparent 48.5%),
+    linear-gradient(to right, saddlebrown,saddlebrown,saddlebrown,saddlebrown);
+    background-repeat: no-repeat;
+}
+
+#logo::after{
+    content: '';
+    display: block;
+    border-radius: 50%;
+    padding:0;
+    position:absolute;
+    color:saddlebrown; /* Set the colour here */
+    background-color: transparent;   
+    transform: rotate(91deg); 
+    border:6px dashed; 
+    height: 70px;
+    width: 70px;
+    top:99px;
+    left:67px;
+    box-shadow:	inset 0 0 0 0 saddlebrown;
+    /*animation: spin 20s linear infinite;*/
+}
